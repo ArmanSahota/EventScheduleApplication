@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Details</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .card {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="display-4 text-center mt-4 mb-5">Event Details</h1>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-body">
+            <div id="event-details">
+              <p><strong>Title:</strong> <span id="event-title"></span></p>
+              <p><strong>Description:</strong> <span id="event-description"></span></p>
+              <p><strong>Date:</strong> <span id="event-date"></span></p>
+              <p><strong>Location:</strong> <span id="event-location"></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Back button -->
+    <div class="row mt-3">
+      <div class="col-md-8 offset-md-2">
+        <a href="eventlist.html" class="btn btn-secondary">Back</a>
+      </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script type="module" src="./src/eventDetails.js"></script>
+</body>
+</html>
